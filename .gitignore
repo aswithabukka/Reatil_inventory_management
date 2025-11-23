@@ -1,0 +1,47 @@
+# Large data files
+*.parquet
+*.csv
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output directories (optional - uncomment if you want to exclude)
+# output_data/
+# output_plots/
+# logs/
